@@ -45,7 +45,7 @@ export default {
   mounted(){
       var instance = this
       axios
-      .get('https://shielded-spire-43023.herokuapp.com/api/products/')
+      .get('https://frozen-river-13804.herokuapp.com/api/Suppliers')
       .then(function(response){
           console.log(response.data)
           instance.suppliers = response.data.data
