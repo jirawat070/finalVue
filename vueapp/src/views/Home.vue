@@ -22,20 +22,67 @@ export default {
           pageIndex: 1,
           fields: [ 
               {
-                  key:'SupplierID',
+                  key:'supplier_id',
                   sortable : true
               },
               {
-                  key:'CompanyName',
+                  key:'company_name',
                   sortable : true
               },
               {
-                  key:'ContactName',
+                  key:'contact_name',
                   sortable : true,
                   
               },
                 {
-                  key:'ContactTitle',
+                  key:'contact_title',
+                  sortable : true,
+                  
+              },
+              {
+                  key:'address',
+                  sortable : true,
+                  
+              }
+              ,
+              {
+                  key:'city',
+                  sortable : true,
+                  
+              }
+              ,
+              {
+                  key:'region',
+                  sortable : true,
+                  
+              }
+              ,
+              {
+                  key:'postal_code',
+                  sortable : true,
+                  
+              }
+              ,
+              {
+                  key:'country',
+                  sortable : true,
+                  
+              }
+              ,
+              {
+                  key:'phone',
+                  sortable : true,
+                  
+              }
+              ,
+              {
+                  key:'fax',
+                  sortable : true,
+                  
+              }
+              ,
+              {
+                  key:'homepage',
                   sortable : true,
                   
               }
